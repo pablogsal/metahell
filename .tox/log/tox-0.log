@@ -1,0 +1,42 @@
+actionid: tox
+msg: packaging
+cmdargs: ['/home/pablogsal/anaconda3/bin/python', local('/home/pablogsal/current_exp/metahell/setup.py'), 'sdist', '--formats=zip', '--dist-dir', local('/home/pablogsal/current_exp/metahell/.tox/dist')]
+env: None
+
+running sdist
+running egg_info
+creating metahell.egg-info
+writing metahell.egg-info/PKG-INFO
+writing dependency_links to metahell.egg-info/dependency_links.txt
+writing top-level names to metahell.egg-info/top_level.txt
+writing manifest file 'metahell.egg-info/SOURCES.txt'
+reading manifest file 'metahell.egg-info/SOURCES.txt'
+writing manifest file 'metahell.egg-info/SOURCES.txt'
+warning: sdist: standard file not found: should have one of README, README.rst, README.txt
+
+running check
+warning: check: missing required meta-data: url
+
+creating metahell-0.0.1
+creating metahell-0.0.1/metahell
+creating metahell-0.0.1/metahell.egg-info
+copying files to metahell-0.0.1...
+copying setup.py -> metahell-0.0.1
+copying metahell/__init__.py -> metahell-0.0.1/metahell
+copying metahell/metahell.py -> metahell-0.0.1/metahell
+copying metahell.egg-info/PKG-INFO -> metahell-0.0.1/metahell.egg-info
+copying metahell.egg-info/SOURCES.txt -> metahell-0.0.1/metahell.egg-info
+copying metahell.egg-info/dependency_links.txt -> metahell-0.0.1/metahell.egg-info
+copying metahell.egg-info/top_level.txt -> metahell-0.0.1/metahell.egg-info
+Writing metahell-0.0.1/setup.cfg
+creating '.tox/dist/metahell-0.0.1.zip' and adding 'metahell-0.0.1' to it
+adding 'metahell-0.0.1/setup.py'
+adding 'metahell-0.0.1/setup.cfg'
+adding 'metahell-0.0.1/PKG-INFO'
+adding 'metahell-0.0.1/metahell.egg-info/dependency_links.txt'
+adding 'metahell-0.0.1/metahell.egg-info/PKG-INFO'
+adding 'metahell-0.0.1/metahell.egg-info/SOURCES.txt'
+adding 'metahell-0.0.1/metahell.egg-info/top_level.txt'
+adding 'metahell-0.0.1/metahell/__init__.py'
+adding 'metahell-0.0.1/metahell/metahell.py'
+removing 'metahell-0.0.1' (and everything under it)
