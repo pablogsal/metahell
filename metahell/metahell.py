@@ -7,7 +7,7 @@ __metadevils__ = []
 
 def _create_custom_build(metadevil):
     def _custom_build(func, name, *bases, **kwargs):
-        if not any(isinstance(base, type) for base in bases):
+        if not any((base is not object and isinstance(base, type) for base in bases)):
             if 'metaclass' in kwargs:
                 pass
             else:
