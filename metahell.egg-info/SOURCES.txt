@@ -1,7 +1,0 @@
-setup.py
-metahell/__init__.py
-metahell/metahell.py
-metahell.egg-info/PKG-INFO
-metahell.egg-info/SOURCES.txt
-metahell.egg-info/dependency_links.txt
-metahell.egg-info/top_level.txt
