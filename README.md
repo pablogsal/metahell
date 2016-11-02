@@ -31,7 +31,7 @@ You can do the same without the contextmanager with:
 
 import metahell
 
-metahell.unleash( lambda *args: 42 ):
+metahell.unleash( lambda *args: 42 )
 
 class Test():
     pass
