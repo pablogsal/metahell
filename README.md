@@ -41,3 +41,5 @@ print(Test)
 print( Test == 42 )
 
 ```
+
+To undo the `metahell.unleash` you need to call `metahell.you_cannot_pass()`.
