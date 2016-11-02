@@ -7,7 +7,7 @@ After installing metahell (`python setup.py` or `pip install .`) you can unleash
 
 import metahell
 
-with metahell.metainyect( lambda *args: return 42 ):
+with metahell.metainyect( lambda *args: 42 ):
 
     class Test():
         pass
@@ -31,7 +31,7 @@ You can do the same without the contextmanager with:
 
 import metahell
 
-metahell.unleash( lambda *args: return 42 ):
+metahell.unleash( lambda *args: 42 ):
 
 class Test():
     pass
