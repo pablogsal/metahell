@@ -28,5 +28,5 @@ def unleash(metadevil):
     builtins.__build_class__ = _create_custom_build(metadevil)
 
 
-def you_cannot_pass():
+def you_shall_not_pass():
     builtins.__build_class__ = __builtins_build_class
